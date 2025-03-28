@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartdb_docs=self.webpackChunksmartdb_docs||[]).push([[2908],{1422:s=>{s.exports=JSON.parse('{"metadata":{"permalink":"/smartdb-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
