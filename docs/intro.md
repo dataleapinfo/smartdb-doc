@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# SmartDB 文档
 
-Let's discover **Docusaurus in less than 5 minutes**.
+欢迎使用 SmartDB 文档。本指南将帮助您更好地理解和使用 SmartDB。
 
-## Getting Started
+## 开始使用
 
-Get started by **creating a new site**.
+SmartDB 是一个强大的数据库解决方案，旨在满足您的数据管理需求。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 您需要准备
 
-### What you'll need
+- 基本的数据库概念理解
+- SmartDB 实例访问权限
+- 所需的凭证和权限
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## 特性
 
-## Generate a new site
+SmartDB 提供以下主要特性：
 
-Generate a new Docusaurus site using the **classic template**.
+- 高性能和可扩展性
+- 高级安全特性
+- 与现有系统的轻松集成
+- 全面的监控和管理工具
 
-The classic template will automatically be added to your project after you run the command:
+## 快速开始
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+开始使用 SmartDB：
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+1. 配置您的连接设置
+2. 设置数据库架构
+3. 在您的应用程序中使用 SmartDB
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+详细说明请参考我们的[入门指南](./greeting)。
 
-## Start your site
+## 支持
 
-Run the development server:
+需要帮助？我们的支持团队随时为您服务：
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- 邮箱：support@dataleap.info
+- 文档：[SmartDB 文档](https://dataleapinfo.github.io/smartdb-doc/intro)
+- GitHub：[SmartDB 仓库](https://github.com/dataleapinfo)
