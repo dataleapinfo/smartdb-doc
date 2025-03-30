@@ -2,19 +2,9 @@
 sidebar_position: 1
 ---
 
-# SmartDB 文档
+# 什么是新型数据库管理工具？
 
-欢迎使用 SmartDB 文档。本指南将帮助您更好地理解和使用 SmartDB。
-
-## 开始使用
-
-SmartDB 是一个强大的数据库解决方案，旨在满足您的数据管理需求。
-
-### 您需要准备
-
-- 基本的数据库概念理解
-- SmartDB 实例访问权限
-- 所需的凭证和权限
+旨在为用户提供数据库管理、数据库自动化运维、数据库监控、操作审计及数据的使用于一体的新型数据库管理工具。无论是数据管理人员、数据运维人员、安全审计人员还是数据使用人员都可以在风险可控的情况进行数据库操作及数据的获取，为企业数据管理提供使用方便、部署快捷、安全可控的产品解决方案
 
 ## 特性
 
@@ -33,12 +23,10 @@ SmartDB 提供以下主要特性：
 2. 设置数据库架构
 3. 在您的应用程序中使用 SmartDB
 
-详细说明请参考我们的[入门指南](./greeting)。
-
 ## 支持
 
 需要帮助？我们的支持团队随时为您服务：
 
-- 邮箱：support@dataleap.info
-- 文档：[SmartDB 文档](https://dataleapinfo.github.io/smartdb-doc/intro)
+- 邮箱：support@dataleapinfo.com
+- 文档：[SmartDB 文档](https://dataleapinfo.github.io/smartdb-doc/docs/intro)
 - GitHub：[SmartDB 仓库](https://github.com/dataleapinfo)

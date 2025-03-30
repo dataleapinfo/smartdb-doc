@@ -33,8 +33,6 @@ To get started with SmartDB:
 2. Set up your database schema
 3. Start using SmartDB in your applications
 
-For detailed instructions, please refer to our [Getting Started Guide](./greeting).
-
 ## Support
 
 Need help? Our support team is here to assist you:

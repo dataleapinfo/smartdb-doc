@@ -41,7 +41,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
+          routeBasePath: '/docs',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -72,6 +72,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: false,
+      },
+    },
     navbar: {
       title: '',
       logo: {
@@ -87,10 +93,6 @@ const config: Config = {
           label: '文档',
         },
         { to: '/blog', label: '博客', position: 'left' },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-        },
         {
            href: 'https://github.com/dataleapinfo',
            label: 'GitHub',
