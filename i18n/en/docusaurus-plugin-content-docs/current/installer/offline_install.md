@@ -8,12 +8,12 @@ For required environment setup, please refer to [Environment Requirements](./ins
 
 ## 1. Installation and Deployment
 
-### Installation Package
+### [Installation Package](https://www.dataleapinfo.com:8443/download/smartdb/)
 
 ```bash
 # Default installation path /opt
 $ cd /opt
-$ tar -xvf smartdb-installer-v1.1.0-ce.tar 
+$ tar -xvf smartdb-installer-v1.1.0-ce.tar
 $ cd smartdb-installer-v1.1.0-ce
 ```
 
@@ -33,19 +33,19 @@ vi example.env
 #
 
 ################# HTTP Configuration ###########################
-# 
+#
 # The service port provided to the outside
 #
 HTTP_PORT=80
 
 ################# HTTPS Configuration ###########################
-# 
+#
 # The service port provided to the outside
 #
 HTTPS_PORT=443
 
 ################# Installation Configuration ###########################
-# 
+#
 # SmartDB database persistence directory
 #
 VOLUME_DIR=/opt/smartdb
@@ -53,7 +53,7 @@ USE_IPV6=0
 DOCKER_SUBNET_IPV6=fc00:1010:1111:200::/64
 
 ################# Database Configuration ###########################
-# 
+#
 # For external database, you need to fill in the external database connection information.
 # The system will automatically handle the built-in database.
 #
@@ -65,7 +65,7 @@ DB_PASSWORD=
 DB_NAME=smartdata
 
 ################# Redis Configuration ###########################
-# 
+#
 # For external Redis, you need to fill in the external database connection information.
 # The system will automatically handle the built-in database.
 #
@@ -101,16 +101,19 @@ export GLOBAL_CONFIG_DIR=/opt/smartdb/config
 The installation process consists of three main steps:
 
 1. Install basic environment:
+
 ```bash
 ./smartdbcli.sh install
 ```
 
 2. Initialize database:
+
 ```bash
 ./smartdbcli.sh init_db
 ```
 
 3. Start application:
+
 ```bash
 ./smartdbcli.sh start
 ```
@@ -131,8 +134,8 @@ After successful installation, access through your browser:
 
 ```md
 https://<ip>:<port>/db
-admin / admin 
+admin / admin
 Please change the password on first login.
 ```
 
-![Login Screenshot](./img/Screenshot-login.png) 
+![Login Screenshot](./img/Screenshot-login.png)

@@ -10,12 +10,12 @@ sidebar_position: 3
 
 ### 安装包
 
-从官网下载安装包，并上传到服务器/opt目录
+从[官网](https://www.dataleapinfo.com:8443/download/smartdb/)下载安装包，并上传到服务器/opt目录
 
 ```bash
-# 默认安装路径 /opt
+# 默认安装路径 /opts
 $ cd /opt
-$ tar -xvf smartdb-offline-v1.1.0-ce.tar 
+$ tar -xvf smartdb-offline-v1.1.0-ce.tar
 $ cd smartdb-offline-v1.1.0-ce
 ```
 
@@ -35,19 +35,19 @@ vi example.env
 #
 
 ################# HTTP Configuration ###########################
-# 
+#
 # The sevice port provided to the outside
 #
 HTTP_PORT=80
 
 ################# HTTPS Configuration ###########################
-# 
+#
 # The sevice port provided to the outside
 #
 HTTPS_PORT=443
 
 ################# Installation Configuration ###########################
-# 
+#
 # SmartDB database persistence directory
 #
 VOLUME_DIR=/opt/smartdb
@@ -55,7 +55,7 @@ USE_IPV6=0
 DOCKER_SUBNET_IPV6=fc00:1010:1111:200::/64
 
 ################# Database Configuration ###########################
-# 
+#
 # For external database, you need to fill in the external database connection information.
 # The system will automatically handle the build-in database.
 #
@@ -67,7 +67,7 @@ DB_PASSWORD=
 DB_NAME=smartdata
 
 ################# Redis Configuration ###########################
-# 
+#
 # For external Redis, you need to fill in the external database connection information.
 # The system will automatically handle the build-in database.
 #
@@ -93,19 +93,19 @@ TIMEZONE=Asia/Shanghai# SmartDB installation configuration file example.
 #
 
 ################# HTTP Configuration ###########################
-# 
+#
 # The sevice port provided to the outside
 #
 HTTP_PORT=80
 
 ################# HTTPS Configuration ###########################
-# 
+#
 # The sevice port provided to the outside
 #
 HTTPS_PORT=443
 
 ################# Installation Configuration ###########################
-# 
+#
 # SmartDB database persistence directory
 #
 VOLUME_DIR=/opt/smartdb
@@ -113,7 +113,7 @@ USE_IPV6=0
 DOCKER_SUBNET_IPV6=fc00:1010:1111:200::/64
 
 ################# Database Configuration ###########################
-# 
+#
 # For external database, you need to fill in the external database connection information.
 # The system will automatically handle the build-in database.
 #
@@ -125,7 +125,7 @@ DB_PASSWORD=
 DB_NAME=smartdata
 
 ################# Redis Configuration ###########################
-# 
+#
 # For external Redis, you need to fill in the external database connection information.
 # The system will automatically handle the build-in database.
 #
@@ -146,7 +146,7 @@ TZ=Asia/Shanghai
 TIMEZONE=Asia/Shanghai
 ```
 
- `global.env` 文件指定了默认配置文件的路径，可根据需要自行修改。
+`global.env` 文件指定了默认配置文件的路径，可根据需要自行修改。
 
 ```env
 # Component version
@@ -194,7 +194,7 @@ export GLOBAL_CONFIG_DIR=/opt/smartdb/config
 
 ```md
 https://<ip>:<port>/db
-admin / admin 
+admin / admin
 第一次登录请修改密码。
 ```
 
