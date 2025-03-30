@@ -38,5 +38,5 @@ To get started with SmartDB:
 Need help? Our support team is here to assist you:
 
 - Email: support@dataleap.info
-- Documentation: [SmartDB Docs](https://dataleapinfo.github.io/smartdb-doc/)
+- Documentation: [SmartDB Docs](https://dataleapinfo.github.io/smartdb-doc/intro)
 - GitHub: [SmartDB Repository](https://github.com/dataleapinfo)

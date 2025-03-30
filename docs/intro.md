@@ -28,5 +28,5 @@ SmartDB 提供以下主要特性：
 需要帮助？我们的支持团队随时为您服务：
 
 - 邮箱：support@dataleapinfo.com
-- 文档：[SmartDB 文档](https://dataleapinfo.github.io/smartdb-doc/docs/intro)
+- 文档：[SmartDB 文档](https://dataleapinfo.github.io/smartdb-doc/intro)
 - GitHub：[SmartDB 仓库](https://github.com/dataleapinfo)
