@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmartdb_docs=self.webpackChunksmartdb_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/dbagent-doc/blog","blogTitle":"Blog","authorsListPath":"/dbagent-doc/blog/authors"}')}}]);
